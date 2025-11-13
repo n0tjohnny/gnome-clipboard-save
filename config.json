@@ -1,0 +1,12 @@
+{
+  "save_dir": "~/Documents/clipboard_saves",
+  "file_template": "clip_{date}_{time}_{text:.20}.txt",
+  "max_filename_length": 50,
+  "notifications": true,
+  "log_level": "INFO",
+  "hotkeys": {
+    "quick_save": "Ctrl+Alt+s",
+    "custom_save": "Ctrl+Alt+f"
+  },
+  "_comment": "Available template variables: {date}, {time}, {datetime}, {timestamp}, {text}, {text_full}"
+}
