@@ -23,7 +23,7 @@ It supports both quick saves (automatic filenames) and custom saves (filename di
 - One of the clipboard utilities:
   - `wl-clipboard` for Wayland  
   - `xclip` for X11  
-  - or Python package `pyperclip`
+  - or `pyperclip` package `pip install pyperclip`
 
 ### System dependencies (for dialogs and notification)
 - For Debian/Ubuntu:
@@ -31,10 +31,6 @@ It supports both quick saves (automatic filenames) and custom saves (filename di
 
 - For Fedora/RHEL:
 `sudo dnf install zenity libnotify wl-clipboard`
-
-Also recommended:
-- `zenity` (for dialogs)
-- `libnotify` (for notifications)
 
 ### Setup
 
